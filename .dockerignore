@@ -15,3 +15,8 @@ venv/
 Dockerfile
 .dockerignore
 
+# Ignore front end build files
+.html
+.css
+.js
+.ico
