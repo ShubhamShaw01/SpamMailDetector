@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         setLoadingState(true);
         // Update the fetch URL to match your Docker environment
-        const response = await fetch('https://spammaildetector-production.up.railway.app/predict', {
+        const response = await fetch('https://spammaildetector-y89t.onrender.com/predict', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
